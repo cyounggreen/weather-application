@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/stylesheet.css" />
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <header class="bg-info">
+        <h1 class="fs-1 text-center">
+            Weather Dashboard
+        </h1>
+    </header>
+
+    <div class="flex-row justify-space-between">
+        <div class="col-12 col-md-4">
+
+            <div class="card">
+                <h2 class="text-3xl font-bold">Search for a City:</h2>
+                <form>
+                    <input type="text" id="city" class="form-control" />
+                    <button type="submit" class="btn btn-primary">Get Weather</button>
+                </form>
+            </div>
+            <script src="./assets/script.js"></script>
+        </div>
+    </div>
+
+    <div class="d-flex flex-column mb-3">
+    <h3 class="fs-4">Previous Searches:</h3>
+    <div class="previous">
+        <!--here is where you attach previous searches-->
+    </div>
+    </div>
+</body>
+
+</html>
