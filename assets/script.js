@@ -21,7 +21,7 @@ var formSubmitHandler = function (event) {
 }
 
 function getWeatherForecast(){
-    var queryURL = "http://api.openweathermap.org/data/2.5/weather?q=" + cityInput.value + "&appid=" + APIkey + '&units=imperial';
+    var queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" + cityInput.value + "&appid=" + APIkey + '&units=imperial';
 fetch(queryURL)
 .then(function (response) {
     return response.json();
@@ -49,7 +49,7 @@ fetch(queryURL)
     currentWeather.append(condition);
     currentWeather.append(humidity);
     
-    var forecastURL = 'http://api.openweathermap.org/data/2.5/forecast?lat=' + latitude + '&lon=' + longitude + '&appid=' + APIkey + '&units=imperial';
+    var forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?lat=' + latitude + '&lon=' + longitude + '&appid=' + APIkey + '&units=imperial';
 
     fetch(forecastURL)
     .then(function (response) {
