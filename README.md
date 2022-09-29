@@ -6,14 +6,11 @@ The following application is a weather application that uses OpenWeather API in 
 
 
 ## Screenshot
+The following is a screenshot of the functioning website:
 
-Provide instructions and examples for use. Include screenshots as needed.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+![Screenshot of functioning website](/assets/screenshot.JPG)
 
-    ```md
-    ![Screenshot of functioning website](/assets/screenshot.JPG)
-    ```
 
 ## Credits
 
