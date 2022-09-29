@@ -4,6 +4,7 @@
     border: 2px solid gray;
 }
 
-.heading {
-    background-color: #14b8a6;
+img {
+    max-width: 50px;
+    max-height: 50px;
 }

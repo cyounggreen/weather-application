@@ -19,26 +19,52 @@
         </h1>
     </header>
 
-    <div class="flex-row justify-space-between">
+    <div class="container d-inline-flex flex-row">
         <div class="col-12 col-md-4">
 
             <div class="card">
                 <h2 class="text-3xl font-bold">Search for a City:</h2>
-                <form>
+                <form id="weather-form">
                     <input type="text" id="city" class="form-control" />
                     <button type="submit" class="btn btn-primary">Get Weather</button>
                 </form>
             </div>
-            <script src="./assets/script.js"></script>
+            <div class="card" id="current">
+                <!--here is where current weather conditions go-->
+            </div>
+            <div class="container d-flex flex-row">
+                <h4 class="p-1 fs-3 fw-bold">Five Day Forecast:</h4>
+                <div class="d-flex flex-row">
+                    <div class="p-2 flex-fill">
+                        <div class="card" style="width: 18rem;" id="day-1">
+                            <!--here is where the forecast goes-->
+                        </div>
+                    </div>
+                    <div class="p-2 flex-fill">
+                        <div class="card" style="width: 18rem;" id="day-2">
+                            <!--here is where the forecast goes-->
+                        </div>
+                    </div>
+                    <div class="p-2 flex-fill">
+                        <div class="card" style="width: 18rem;" id="day-3">
+                            <!--here is where the forecast goes-->
+                        </div>
+                    </div>
+                    <div class="p-2 flex-fill">
+                        <div class="card" style="width: 18rem;" id="day-4">
+                            <!--here is where the forecast goes-->
+                        </div>
+                    </div>
+                    <div class="p-2 flex-fill">
+                        <div class="card" style="width: 18rem;" id="day-5">
+                            <!--here is where the forecast goes-->
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-
-    <div class="d-flex flex-column mb-3">
-    <h3 class="fs-4">Previous Searches:</h3>
-    <div class="previous">
-        <!--here is where you attach previous searches-->
-    </div>
-    </div>
+</div>
 </body>
-
+<script src="./assets/script.js"></script>
 </html>
